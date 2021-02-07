@@ -1,0 +1,7 @@
+[workspace]
+
+members = [
+    "optimizers",
+    "subgame_solving",
+    "zero_sum_solving",
+]

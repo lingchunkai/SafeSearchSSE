@@ -1,0 +1,17 @@
+[package]
+name = "zero_sum_solving"
+version = "0.1.0"
+authors = ["Chun Kai Ling <ckling@fb.com>"]
+edition = "2018"
+
+[dependencies]
+libc = "0.2.0"
+efg_lite = {path = "../../efg"}
+structopt = "0.2"
+env_logger = "0.6.1"
+capnp = "0.9.4"
+log = "0.4"
+optimizers = { path = "../optimizers" }
+
+[build-dependencies]
+bindgen = "0.49.2"
