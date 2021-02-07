@@ -1,0 +1,19 @@
+[package]
+name = "efg_lite"
+version = "0.1.0"
+authors = ["Chun Kai Ling <ckling@fb.com>"]
+edition = "2018"
+
+[lib]
+name = 'efg_lite'
+path = 'src/efg_lite.rs'
+
+[build-dependencies]
+capnpc = "0.9.5"
+regex = "1.1.0"
+
+[dependencies]
+assert_approx_eq = "1.1.0"
+approx = "0.3.2"
+capnp = "0.9.4"
+lazy_static = "1.2.0"

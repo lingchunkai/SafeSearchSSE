@@ -1,0 +1,20 @@
+[package]
+name = "synthetic"
+version = "0.1.0"
+authors = ["Chun Kai Ling <lingchunkai@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+efg_lite = {path = "../../efg"}
+libgt = {path = "../../libgt"}
+itertools = "0.8.0"
+structopt = "0.2"
+log = "0.4.6"
+env_logger = "0.6.1"
+rand = "0.7.3"
+rand_chacha = "0.2.2"
+libc = "0.2.0"
+noisy_float="0.1.12"
+
+[build-dependencies]
+bindgen = "0.49.2"

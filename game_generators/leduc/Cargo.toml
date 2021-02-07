@@ -1,0 +1,14 @@
+[package]
+name = "leduc"
+version = "0.1.0"
+authors = ["Chun Kai Ling <ckling@fb.com>"]
+edition = "2018"
+
+[dependencies]
+efg_lite = {path = "../../efg"}
+libgt = {path = "../../libgt"}
+itertools = "0.8.0"
+structopt = "0.2"
+log = "0.4.6"
+env_logger = "0.6.1"
+noisy_float = "0.1.11"

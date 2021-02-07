@@ -1,0 +1,6 @@
+[workspace]
+members = ["goofspiel",
+            "search_game",
+            "leduc",
+            "rps", 
+            "synthetic",]

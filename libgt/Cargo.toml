@@ -1,0 +1,12 @@
+[package]
+name = "libgt"
+version = "0.1.0"
+authors = ["Chun Kai Ling <ckling@fb.com>"]
+edition = "2018"
+
+[dependencies]
+efg_lite = {path = "../efg"}
+assert_approx_eq = "1.1.0"
+itertools = "0.8.0"
+log = "0.4.6"
+env_logger = "0.6.1"
